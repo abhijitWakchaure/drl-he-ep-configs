@@ -1,0 +1,4 @@
+question-service:
+  mongodb:
+    database: drl-he-ep-db
+    uri: mongodb+srv://dbReadWriteUser:sn7SYqlBNfxXhm7O@dc1.d5hdy.mongodb.net
