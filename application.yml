@@ -1,4 +1,12 @@
-question-service:
-  mongodb:
-    database: drl-he-ep-db
-    uri: mongodb+srv://dbReadWriteUser:sn7SYqlBNfxXhm7O@dc1.d5hdy.mongodb.net
+spring:
+  data:
+    mongodb:
+      database: drl-he-ep-db
+      uri: mongodb+srv://dbReadWriteUser:sn7SYqlBNfxXhm7O@dc1.d5hdy.mongodb.net
+
+  jackson:
+    default-property-inclusion: NON_NULL
+
+logging:
+  level:
+    com.netflix: warn
