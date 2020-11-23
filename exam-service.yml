@@ -1,5 +1,5 @@
 version:
-  config: "1.0.1"
+  config: "1.0.0"
   service: "0.0.1-SNAPSHOT"
 
 server:
