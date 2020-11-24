@@ -18,7 +18,6 @@ management:
           - health
           - info
           - refresh
-
-logging:
-  level:
-    com.netflix: warn
+# logging:
+#   level:
+#     com.netflix: warn
